@@ -1,0 +1,13 @@
+{
+  "name": "grikomsn",
+  "description": "npx grikomsn to view my digital card 🃏",
+  "version": "1.0.0",
+  "repository": "https://github.com/grikomsn/card.git",
+  "author": "Griko Nibras <hello@griko.id>",
+  "main": "index.js",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  },
+  "license": "MIT"
+}
