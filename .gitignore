@@ -1,3 +1,8 @@
 node_modules
 
-output
+*.out
+*.js
+
+yarn-error.log
+
+.DS_Store

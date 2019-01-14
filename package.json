@@ -1,34 +1,43 @@
 {
-  "name": "grikomsn",
-  "description": "npx grikomsn to view my digital card 🃏",
-  "version": "1.1.0",
-  "repository": "https://github.com/grikomsn/card.git",
-  "author": "Griko Nibras <hello@griko.id>",
-  "main": "bin/card.js",
-  "bin": {
-    "grikomsn": "bin/card.js"
-  },
-  "scripts": {
-    "prepublish": "yarn build",
-    "build": "node build.js",
-    "dev": "yarn build && node ./bin/card.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
-  },
-  "files": [
-    "bin/card.js",
-    "bin/output"
-  ],
-  "keywords": [
-    "card",
-    "npm",
-    "npm card",
-    "npx",
-    "npx card",
-    "business card"
-  ],
-  "license": "MIT"
+	"name": "dimitarnestorov",
+	"description": "npx dimitarnestorov to view my digital card",
+	"version": "0.0.0",
+	"repository": "https://github.com/dimitarnestorov/card.git",
+	"author": "Dimitar Nestorov <opensource@dimitarnestorov.com>",
+	"main": "card.js",
+	"bin": {
+		"dimitarnestorov": "card.js"
+	},
+	"scripts": {
+		"prepublishOnly": "tsc && yarn run build-card",
+		"build-card": "ts-node ./build.ts",
+		"dev": "yarn run build-card && ts-node ./card.ts"
+	},
+	"dependencies": {
+		"supports-hyperlinks": "^1.0.1"
+	},
+	"devDependencies": {
+		"@types/ansi-escapes": "^3.0.0",
+		"@types/boxen": "^2.1.0",
+		"@types/node": "^10.12.18",
+		"ansi-escapes": "^3.1.0",
+		"boxen": "^2.1.0",
+		"chalk": "^2.4.1",
+		"ts-node": "^7.0.1",
+		"typescript": "^3.2.2"
+	},
+	"files": [
+		"card.js",
+		"links.out",
+		"clean.out"
+	],
+	"keywords": [
+		"card",
+		"npm",
+		"npm card",
+		"npx",
+		"npx card",
+		"business card"
+	],
+	"license": "MIT"
 }
