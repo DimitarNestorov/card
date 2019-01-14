@@ -3,7 +3,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 
-import { link } from 'ansi-escapes'
+import { link, eraseLine, cursorPrevLine } from 'ansi-escapes'
 import * as boxen from 'boxen'
 import chalk from 'chalk'
 
@@ -25,7 +25,7 @@ Twitter: ${r(twitterURI)}
  GitHub: ${r(githubURI)}${' '}
 Website: ${r(websiteURI)}       `
 
-const output = boxen(content, {
+const box = boxen(content, {
 	borderColor: 'red',
 	align: 'center',
 	margin: 1,
@@ -35,7 +35,8 @@ const output = boxen(content, {
 		left: 6,
 		right: 6,
 	},
-}).replace(` ${name}`, `${name} `)
+})
+const output = `${cursorPrevLine}${eraseLine}${box.replace(` ${name}`, `${name} `)}\n`
 
 fs.writeFileSync(path.join(__dirname, 'clean.out'), output)
 

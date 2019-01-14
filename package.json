@@ -1,7 +1,7 @@
 {
 	"name": "dimitarnestorov",
 	"description": "npx dimitarnestorov to view my digital card",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"repository": "https://github.com/dimitarnestorov/card.git",
 	"author": "Dimitar Nestorov <opensource@dimitarnestorov.com>",
 	"main": "card.js",
