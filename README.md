@@ -1,5 +1,7 @@
 # dimitarnestorov/card
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dimitarnestorov/card.svg)](https://greenkeeper.io/)
+
 ```sh
 npx dimitarnestorov
 ```
