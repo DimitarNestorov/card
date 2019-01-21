@@ -11,7 +11,8 @@
 	"scripts": {
 		"prepublishOnly": "tsc && yarn run build-card",
 		"build-card": "ts-node ./build.ts",
-		"dev": "yarn run build-card && ts-node ./card.ts"
+		"dev": "yarn run build-card && ts-node ./card.ts",
+		"test": "exit 0"
 	},
 	"dependencies": {
 		"supports-hyperlinks": "^1.0.1"
