@@ -1,6 +1,7 @@
 node_modules
 
-*.out
+clean.out
+links.out
 *.js
 
 yarn-error.log
