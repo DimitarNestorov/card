@@ -4,7 +4,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 
 import { link, eraseLine, cursorPrevLine } from 'ansi-escapes'
-import * as boxen from 'boxen'
+import boxen from 'boxen'
 import chalk from 'chalk'
 
 const { bold, red: r } = chalk
