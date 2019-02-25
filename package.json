@@ -24,7 +24,7 @@
 		"boxen": "^3.0.0",
 		"chalk": "^2.4.2",
 		"ts-node": "^8.0.2",
-		"typescript": "^3.2.2"
+		"typescript": "^3.3.3333"
 	},
 	"files": [
 		"card.js",
