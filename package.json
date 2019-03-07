@@ -18,7 +18,7 @@
 		"supports-hyperlinks": "^1.0.1"
 	},
 	"devDependencies": {
-		"@types/ansi-escapes": "^3.0.0",
+		"@types/ansi-escapes": "^3.0.1",
 		"@types/node": "^11.10.4",
 		"ansi-escapes": "^3.2.0",
 		"boxen": "^3.0.0",
