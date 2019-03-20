@@ -19,7 +19,7 @@
 	},
 	"devDependencies": {
 		"@types/ansi-escapes": "^3.0.1",
-		"@types/node": "^11.11.3",
+		"@types/node": "^11.11.4",
 		"ansi-escapes": "^3.2.0",
 		"boxen": "^3.0.0",
 		"chalk": "^2.4.2",
