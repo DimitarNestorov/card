@@ -2,14 +2,14 @@
 # yarn lockfile v1
 
 
-"@types/ansi-escapes@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@types/ansi-escapes/-/ansi-escapes-3.0.1.tgz#328e46c6ac3177ca4cf2efdeed326cf77da01ef7"
-  integrity sha512-GD/QLUGxSvy3yGQb+m12qsRtP4p/dewNePDb5F8qV19CXuO+gtbsmMjjsClpG/Nu84y8SF1zPKrTnQZHDiPUgg==
+"@types/ansi-escapes@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/ansi-escapes/-/ansi-escapes-4.0.0.tgz#cf52d455628bc3fab95db971ab0f23c84778cc05"
+  integrity sha512-50x8OpY2c2UMDuiN7Uq1ITWngAiL3B8L9v6GU0J+IrndEypNfGJaZSgpuOBwhIu+7xwkhDj9OniK6z6MaeN7zQ==
   dependencies:
-    "@types/node" "*"
+    ansi-escapes "*"
 
-"@types/node@*", "@types/node@^11.13.4":
+"@types/node@^11.13.4":
   version "11.13.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.4.tgz#f83ec3c3e05b174b7241fadeb6688267fe5b22ca"
   integrity sha512-+rabAZZ3Yn7tF/XPGHupKIL5EcAbrLxnTr/hgQICxbeuAfWtT0UZSfULE+ndusckBItcv4o6ZeOJplQikVcLvQ==
@@ -21,7 +21,7 @@ ansi-align@^3.0.0:
   dependencies:
     string-width "^3.0.0"
 
-ansi-escapes@^4.1.0:
+ansi-escapes@*, ansi-escapes@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-4.1.0.tgz#62a9e5fa78e99c5bb588b1796855f5d729231b53"
   integrity sha512-2VY/iCUZTDLD/qxptS3Zn3c6k2MeIbYqjRXqM8T5oC7N2mMjh3xIU3oYru6cHGbldFa9h5i8N0fP65UaUqrMWA==
